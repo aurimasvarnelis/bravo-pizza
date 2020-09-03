@@ -1,0 +1,131 @@
+.body {
+}
+
+/*navigation*/
+.navbar {
+  /* background-color: lightgray;*/
+  /*background-color: #bea6a0;*/
+
+  /*padding: 0 15%;*/
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  /*background-image: url(./images/bravo.jpg);*/
+  background-position: center;
+  font-size: 2.5rem;
+  opacity: 0.99;
+  color: #b80404;
+}
+.navbar-nav {
+  /*border-top: 3px solid #bd1f36;*/
+}
+.navbar-nav {
+  color: #b80404;
+}
+/*.nav-item > .nav-link {
+  color: #bd1f36;
+  font-size: 1.5rem;
+}
+.nav-item .active {
+  color: yellow !important;
+}
+.navbar-nav > li.nav-item.active > a.nav-link {
+  text-decoration: none;
+  color: red;
+}*/
+
+.nav-item a {
+  color: #990000;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-item.active a {
+  color: #56423d;
+  border-bottom: 5px solid #56423d;
+}
+.nav {
+  font-size: 1.4rem;
+}
+.nav .nav-link.active {
+  color: #56423d;
+  border-bottom: 5px solid #56423d;
+}
+.navbar-toggler {
+  background-color: #56423d;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+.navbar-brand {
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/*menu*/
+
+.menu-caption {
+  margin: 50px auto;
+  color: #bd1f36;
+}
+.product-layout {
+  background-color: white;
+  /*background: rgba(129, 129, 129, 0.2);*/
+}
+.price {
+  border-top: ;
+}
+.description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /*height: 250px;*/
+}
+
+.caption {
+}
+.product-layout .caption h2 {
+  font-size: 1.5rem;
+}
+.price {
+  border-style: solid;
+  border: 5px;
+  border-color: #bd1f36;
+  border-width: 3px;
+}
+
+.item-image {
+  max-height: 256px;
+}
+
+/*.col-md-3 {
+  width: 20%;
+  margin: 0 2.5%;
+}
+.col-lg-3 {
+  width: 20%;
+  margin: 0 2.5%;
+}*/
+/*colors*/
+
+/*footer*/
+.footer {
+  color: white;
+  font-size: 1rem;
+}
