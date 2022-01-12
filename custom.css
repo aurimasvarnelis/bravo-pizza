@@ -1,131 +1,106 @@
-.body {
+body {
+  background-image: url("./images/misc/pattern_background.jpg");
+  background-repeat: repeat;
+  font-family: 'Noto Sans', sans-serif;
 }
-
 /*navigation*/
 .navbar {
-  /* background-color: lightgray;*/
-  /*background-color: #bea6a0;*/
-
-  /*padding: 0 15%;*/
-  /*background-color: rgba(0, 0, 0, 0.6);*/
-  /*background-image: url(./images/bravo.jpg);*/
-  background-position: center;
-  font-size: 2.5rem;
-  opacity: 0.99;
-  color: #b80404;
-}
-.navbar-nav {
-  /*border-top: 3px solid #bd1f36;*/
-}
-.navbar-nav {
-  color: #b80404;
-}
-/*.nav-item > .nav-link {
-  color: #bd1f36;
+  background-color: #ffffff;
+  font-weight: 700;
   font-size: 1.5rem;
+  background-position: center;
+  color: #b80404;
+  border-top: 2px solid #b80404;
+  border-bottom: 2px solid #b80404;
 }
-.nav-item .active {
-  color: yellow !important;
+.navbar-nav .nav-item a {
+  color: #b80404;
 }
-.navbar-nav > li.nav-item.active > a.nav-link {
-  text-decoration: none;
-  color: red;
-}*/
-
-.nav-item a {
-  color: #990000;
-  font-family: "Roboto", sans-serif;
-}
-
 .nav-item.active a {
   color: #56423d;
+
   border-bottom: 5px solid #56423d;
 }
 .nav {
   font-size: 1.4rem;
 }
-.nav .nav-link.active {
+.nav-link.active {
   color: #56423d;
   border-bottom: 5px solid #56423d;
 }
 .navbar-toggler {
-  background-color: #56423d;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #b80404;
+  border: 1px solid transparent;
+  border-radius: .25rem;
 }
 .navbar-toggler-icon {
-  background-color: white;
-}
-.navbar-brand {
-}
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
+.phone-image {
+  padding-right: 10px;
+}
+.phone-number > a {
+  color: #b80404;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.phone-description{
+  color: #b80404;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.navbar .navbar-expand-sm {
+  border: #b80404;
+  border-top: 1px;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-/*menu*/
-
-.menu-caption {
-  margin: 50px auto;
-  color: #bd1f36;
-}
+/*MENU*/
 .product-layout {
-  background-color: white;
-  /*background: rgba(129, 129, 129, 0.2);*/
+  background-color: #ffffff;
+}
+.product {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  background: rgb(121,99,102, 0.2);
+}
+.product-additional {
+  background-color: #ffffff;
 }
 .price {
-  border-top: ;
+  background: rgb(121,99,102, 0.3)
 }
-.description {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  /*height: 250px;*/
-}
-
-.caption {
-}
-.product-layout .caption h2 {
+.product-layout .caption > h2 {
   font-size: 1.5rem;
 }
-.price {
-  border-style: solid;
-  border: 5px;
-  border-color: #bd1f36;
-  border-width: 3px;
+.description {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 100 !important;
+  line-height: 1;
 }
-
+.allergens > a {
+  font-size: 13px;
+  color: #464242!important;
+  cursor: pointer;
+  text-decoration: underline!important;
+}
 .item-image {
   max-height: 256px;
 }
 
-/*.col-md-3 {
-  width: 20%;
-  margin: 0 2.5%;
-}
-.col-lg-3 {
-  width: 20%;
-  margin: 0 2.5%;
-}*/
-/*colors*/
+/*CONTACT*/
 
-/*footer*/
+/*FOOTER*/
 .footer {
-  color: white;
+  background-color: #ffffff;
   font-size: 1rem;
+  color: #b80404;
+  border-top: 2px solid #b80404;
+  border-bottom: 2px solid #b80404;
+}
+.facebook:hover {
+  opacity: 0.7;
 }
